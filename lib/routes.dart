@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:parkingplace/pages/forgot.dart';
 import 'package:parkingplace/pages/login.dart';
 import 'package:parkingplace/pages/register.dart';
 import 'package:parkingplace/pages/Splash.dart';
