@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:parkinplace/behaviors/hiddenScrollBehavior.dart';
+import 'package:parkingplace/behaviors/hiddenScrollBehavior.dart';
 
 class LoginPage extends StatefulWidget {
   @override
