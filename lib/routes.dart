@@ -8,7 +8,6 @@ Map<String,WidgetBuilder> buildAppRoutes(){
   return{
     '/login':(BuildContext context)=> new LoginPage(),
     '/register':(BuildContext context)=> new RegisterPage(),
-    '/forgot':(BuildContext context)=> new ForgotPage(),
     '/splash':(BuildContext context)=> new SplashPage(),
   };
 }
