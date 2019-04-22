@@ -79,7 +79,7 @@ class _RegisterPageState extends State<RegisterPage> {
           splashColor: Colors.white30,
           highlightColor: Colors.transparent,
           onPressed: () {
-            Navigator.of(context).pushNamed('/login');
+            Navigator.of(context).pushNamed('/menu');
           },
           child: Text(
             '¿Ya tienes una cuenta?',
