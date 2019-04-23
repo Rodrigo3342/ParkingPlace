@@ -8,8 +8,7 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  String _email;
-  String _password;
+
 
   @override
   Widget build(BuildContext context) {

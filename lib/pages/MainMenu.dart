@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parkingplace/pages/card_room.dart';
 class MainMenu extends StatefulWidget {
 
   @override
@@ -64,10 +65,25 @@ class _MainMenuState extends State<MainMenu> {
             ],
           ),
         ),
-        body: Center(
-          child: Container(
-
-          ),
+        body: ListView(
+          children: <Widget>[
+            Container(
+              padding: EdgeInsets.only(left: 20.0, top: 10.0),
+              child: Text(
+                "Estacionamientos cercanos",
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.white
+                ),
+              ),
+            ),
+            CardRoom("assets/images/est1.jpg", "Estacionamiento 1"),
+            CardRoom("assets/images/est2.jpg", "Estacionamiento 2"),
+            CardRoom("assets/images/est3.jpg", "Estacionmiento 3"),
+            CardRoom("assets/images/est4.jpg", "Estacionamiento 4"),
+          ],
         )
     );
   }
